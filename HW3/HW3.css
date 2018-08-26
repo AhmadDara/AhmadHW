@@ -1,0 +1,76 @@
+table,tr,td ,th{
+    
+    border: 3px solid black;
+    height: 70px; 
+    width: 400;
+    border-collapse: collapse;
+    background: pink;
+    padding-right: 150px
+    
+}
+    
+th{
+    text-align: left;
+    background: orange;
+    font-style: oblique;
+    font-size: 30;
+    color: blue;
+}
+
+
+#Mn{
+    
+    color: brown;
+    text-decoration: underline;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#Pz{
+    
+    background-image: url("Pizza.jpg");
+    object-fit: cover;
+    object-position: center center;
+ 
+}
+
+
+#Tit{
+    color: yellow;
+    background: black;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    padding: 20;
+}
+
+#Select{
+    
+    color: red;
+    background: black;
+    font-style: italic;
+    font-size: 30;
+    text-decoration: underline;
+    
+}
+
+#Op{
+    
+    color: blue;
+    background:grey;
+    font-style: italic;
+    width: 150px;
+    height: 30px;
+}
+#Bt{
+    
+    background: grey;
+    font-size: 20;
+    color: blue;
+    font-style: italic;
+    
+}
+#All{
+    
+    background: grey;
+}

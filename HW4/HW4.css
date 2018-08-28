@@ -1,0 +1,44 @@
+
+
+#Hello{
+    background-color: red;
+    width: 70px;
+    height: 80px;
+    position: relative;
+    animation: Moving2 3s infinite;
+}
+
+
+#Hay{
+    
+    background-color: blue;
+    width: 70px;
+    height: 80px;
+    position: relative;
+    animation:  Movee 3s infinite;
+}
+
+
+
+
+@keyframes Movee {
+    
+    0%{top: 0px ; left: 0px}
+    25%{top: 0px ; left: 1000px}
+    50%{top: 500px ; left: 550px}
+    75%{top: 400px; left:0px}
+    100%{top:0px;left:0px;}
+    
+    
+}
+
+@keyframes Moving2 {
+    
+    0%{top: 0px ; left: 0px}
+    25%{top: 0px ; left: 1000px}
+    50%{top: 490px ; left: 500px}
+    75%{top: 500px; left:0px}
+    100%{top:0px;left:0px;}
+    
+    
+}
